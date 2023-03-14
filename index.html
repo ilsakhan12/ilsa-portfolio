@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"
+   
+    <title></title>
+</head>
+<body>
+    <h1 class="name">ILSA KHAN</h1>
+    <h2 class="name">Software Engineer</h2>
+    
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+    
+      <div class="container">
+          
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                 
+        
+              
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Services.html">Services</a>
+                </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="about.html">Home</a>
+                </li>
+              </ul>
+              
+          </div>
+      </div>
+  </nav>
+  
+  <section class="bgimage" id="home">
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+            <h2 class="hero_title">Hi, it's me Ilsa</h2>
+            <h4 class="hero_desc">I'm an experienced software engineer. </h4>
+        </div>
+        </div>
+    </div>
+</section>
+
+<script>
+  // add class navbarDark on navbar scroll
+const header = document.querySelector('.navbar');
+
+window.onscroll = function() {
+    var top = window.scrollY;
+    if(top >=100) {
+        header.classList.add('navbarDark');
+    }
+    else {
+        header.classList.remove('navbarDark');
+    }
+}
+</script>
+
+
+
+
+
+
+
+<!--
+
+  <div>
+  <img class="bb" src="image.jpg" alt="contents">
+</div>
+
+  <div  id="mySidepanel" class="sidepanel">
+
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> </a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+
+  <button class="openbtn" onclick="openNav()">☰ Toggle Sidepanel</button>  <br>
+ 
+<button class="bt" type="button">List of Contents</button> <br>
+<button class="bt" type="button">View Contents</button> <br>
+<button class="bt" type="button">Download Contents</button> <br>
+<button class="bt" type="button">Home</button>
+
+</div>
+
+  <script>
+  function openNav() {
+    document.getElementById("mySidepanel").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidepanel").style.width = "0";
+  }
+  </script>
+ 
+ 
+    
+  
+     
+
+
+
+
+
+  
+
+  <style>
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 250px;
+    top: 0;
+    left: 0;
+    background-color: rgb(83, 40, 40);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    float: right;
+    margin-top: auto;
+    vertical-align: top;
+    
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    float: right;
+  }
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(102, 39, 39);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:#444;
+  }
+  </style>
+
+-->
+<footer id="footer">
+  <div class="container-fluid">
+      <!-- social media icons -->
+      <div class="social-icons mt-4">
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+      </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
